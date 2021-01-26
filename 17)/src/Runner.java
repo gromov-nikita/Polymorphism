@@ -25,5 +25,13 @@ public class Runner {
         ((Bicycle)array[1]).balance();
         ((Unicycle)array[2]).balance();
 
+
+        //1
+        Tricycle tricycle1 = new Tricycle();
+        Bicycle bicycle1 = new Bicycle();
+        Unicycle unicycle1 = new Unicycle();
+        ((Cycle)tricycle1).ride();
+        ((Cycle)bicycle1).ride();
+        ((Cycle)unicycle1).ride();
     }
 }

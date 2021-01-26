@@ -1,7 +1,10 @@
+package com.gromovLearn;
+
 public class Glyph {
-    void draw() {
+
+    public void draw() {
         System.out.println("Glyph.draw()"); }
-    Glyph() {
+    public Glyph() {
         System.out.println("Glyph() before draw()");
         draw();
         System.out.println("Glyph() after draw()");

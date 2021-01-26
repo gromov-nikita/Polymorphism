@@ -12,8 +12,11 @@ your base-class methods to see what happens.
  */
 public class Runner {
     public static void main(String[] args) {
-        Hamster hamster = new Hamster();
+        Rodent[] rodent = new Rodent[2];
+        rodent[0] = new Mouse();
         System.out.println("___________");
-        Mouse mouse= new Mouse();
+        rodent[1] = new Hamster();
+        rodent[0].move();
+        rodent[1].eat();
     }
 }
